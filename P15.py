@@ -12,5 +12,5 @@ for i in range(0,x):
     z=0
     for j in range(len(s[i])-1,-1,-1):
         z=z+(int(s[i][j])*p)
-        y=y*2
+        p=p*2
     print(z)
