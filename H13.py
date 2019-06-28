@@ -9,7 +9,7 @@ if p%2==0:
         r.append(ar[i])
 else:
     for i in range(0,p//2):
-        b.append(ar[i])
+        q.append(ar[i])
     for i in range(p//2+1,p):
         r.append(ar[i])
 q.sort()
