@@ -7,9 +7,9 @@ def isPrime(n):
 
 	return True
 if isPrime(int(input())): 
-	print ("true") 
+	print ("yes") 
 else: 
-	print ("false") 
+	print ("no") 
 	 
 
 
