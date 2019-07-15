@@ -1,17 +1,18 @@
-x,y=map(int,input().split())
-z=list(map(int,input().split()))
-v=list(map(int,input().split()))
-t=[]
-c=0
-for i in range(x):
-    x=v[i]/z[i]
-    t.append(x)
-while y>=0 and len(t)>0:
-    mindex=t.index(max(t))
-    if y>=z[mindex]:
-        c=c+v[mindex]
-        y=y-z[mindex]
-    z.pop(mindex)
-    v.pop(mindex
-    t.pop(mindex)
-print(c)
+
+AA,BB=map(int,input().split())
+CC=list(map(int,input().split()))
+pr=list(map(int,input().split()))
+qr=[]
+ar=0
+for i in range(AA):
+    x=pr[i]/CC[i]
+    qr.append(x)
+while BB>=0 and len(qr)>0:
+    mindex=qr.index(max(qr))
+    if BB>=CC[mindex]:
+        ar=ar+pr[mindex]
+        BB=BB-CC[mindex]
+    CC.pop(mindex)
+    pr.pop(mindex)
+    qr.pop(mindex)
+print(ar)
